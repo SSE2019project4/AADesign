@@ -7,7 +7,6 @@ s.bind(('0.0.0.0', port))									#bind socket to port 3125
 print ('Socket Binded to Port 3125')
 s.listen(10)												#listen on server for a connection							
 print ('Socket is Listening')	
-
 c, addr = s.accept()										#accept all connections over the port
 print('Connection Established')
 
